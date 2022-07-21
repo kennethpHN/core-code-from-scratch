@@ -52,3 +52,12 @@ after reaching 0 check the results of the table:
 | 1        | 1     | 1     | 1     | 1     | 0     | 1     | 0     | 0     | 1     | 0     |
 
 your age in binary is **11111010010**!
+
+**Create a program that adds any two given numbers provided by the user**
+
+![imagen](https://user-images.githubusercontent.com/91851745/180268543-8226c42a-850d-4ebe-ae14-b85b4e042b90.png)
+
+**Create a program that displays your name**
+
+![imagen](https://user-images.githubusercontent.com/91851745/180270704-70b0224c-edc8-4ef5-b7b9-9ba2aaa12876.png)
+
