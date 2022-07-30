@@ -8,6 +8,8 @@
 
 
 ### [Week 1 Challenges](https://github.com/kennethpHN/core-code-from-scratch-readme/tree/main/week1)
-
+### [Week 2 Challenges](https://github.com/kennethpHN/core-code-from-scratch-readme/tree/main/week2)
+### [Week 3 Challenges](https://github.com/kennethpHN/core-code-from-scratch-readme/tree/main/week3)
+### [Week 4 Challenges](https://github.com/kennethpHN/core-code-from-scratch-readme/tree/main/week4)
 
 
