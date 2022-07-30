@@ -7,3 +7,11 @@ function getChar(c){
   return String.fromCharCode(c);
 }
 ```
+**Binary addition**
+
+```
+function addBinary(a,b) {
+  let c = a+b
+  return c.toString(2);
+}
+```
