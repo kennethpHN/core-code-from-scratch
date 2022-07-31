@@ -1,23 +1,23 @@
 ## Wednesday 27/07/22
 
-**Char From ASCII Value**
+**Kata - Char From ASCII Value**
 
-```
+```Javascript
 function getChar(c){
   return String.fromCharCode(c);
 }
 ```
-**Binary addition**
+**Kata - Binary addition**
 
-```
+```javascript
 function addBinary(a,b) {
   let c = a+b
   return c.toString(2);
 }
 ```
 
-**Student's Final Grade**
-```
+**Kata - Student's Final Grade**
+```javascript
 function finalGrade (exam,projects) {
 
   return exam>90 || projects>10?100:exam>75 && projects>=5?90:
