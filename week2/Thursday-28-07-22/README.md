@@ -1,6 +1,6 @@
 ## Thursday 28/07/22
 
-**Remove All Exclamation Marks From The End Of Sentence**
+**Kata - Remove All Exclamation Marks From The End Of Sentence**
 ```javascript
 function remove (string) {  
   for(let i = string.length-1; i >0;i--){
@@ -11,7 +11,7 @@ function remove (string) {
   return string;
 }
 ```
-**Vowel Remover**
+**Kata - Vowel Remover**
 ```javascript
 function shortcut (string) {
   let short="";
