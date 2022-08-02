@@ -51,3 +51,17 @@ const rps = (p1, p2) => {
         }
 };
 ```
+**Kata - Persistent Bugger**
+```javascript
+function persistence(num) {
+  let sp = (''+num).split("")
+  let sum=1;
+  if(parseInt(sp.join(""))<10){
+    return 0;
+  }
+  for(let i = 0; i<sp.length;i++){
+    sum *= parseInt(sp[i]);
+  }
+  return 1 + persistence(sum)
+}
+```
