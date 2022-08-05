@@ -1,4 +1,4 @@
-### [Monday 01/08/22](https://github.com/kennethpHN/core-code-from-scratch-readme/tree/main/week3/Tuesday-01-08-22)
+### [Monday 01/08/22](https://github.com/kennethpHN/core-code-from-scratch-readme/tree/main/week3/Monday-01-08-22)
 
 ### [Tuesday 02/08/22](https://github.com/kennethpHN/core-code-from-scratch-readme/tree/main/week3/Tuesday-02-08-22)
 
