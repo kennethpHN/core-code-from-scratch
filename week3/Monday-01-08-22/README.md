@@ -16,3 +16,13 @@ const likes = (names) => {
     return `${names[0]}, ${names[1]} and ${names.length -2} others like this`;
 }
 ```
+
+**Kata - Bit Counting
+```javascript
+function countBits(n) {
+  let binary = Array.from(n.toString(2),Number);
+  return binary.reduce(function(accumulator,n){
+    return accumulator + n;
+  });;
+};
+```
