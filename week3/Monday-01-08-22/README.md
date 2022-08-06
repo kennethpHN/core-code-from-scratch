@@ -17,7 +17,7 @@ const likes = (names) => {
 }
 ```
 
-**Kata - Bit Counting
+**Kata - Bit Counting**
 ```javascript
 function countBits(n) {
   let binary = Array.from(n.toString(2),Number);
