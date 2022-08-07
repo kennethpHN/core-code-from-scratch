@@ -31,3 +31,14 @@ function validParentheses(parens) {
   }
 }
 ```
+
+**Kata - Convert String To Camel Case**
+```javascript
+function toCamelCase(str){
+  let result = str.split(/[-_]/);
+  for(let i = 1; i< result.length; i++){
+    result[i] = result[i].replace(/(\b[a-z])/g,(x)=>{return x.toUpperCase();});
+  }
+  return result.join('');
+}
+```
