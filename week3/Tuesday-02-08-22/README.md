@@ -12,4 +12,18 @@ function pigIt(str){
   return text.join(' ');
 }
 ```
+**Kata - Counting Duplicates**
+```javascript
+function duplicateCount(text){
+  text = text.toLowerCase().split('').sort();
+  let count = 0;
+  for(let i =0; i< text.length; i++){
+    if(text[i]===text[i+1]){
+      count++
+      i= text.lastIndexOf(text[i]);
+    }
+  }
+  return count;
+}
+```
 
