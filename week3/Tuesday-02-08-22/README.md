@@ -27,3 +27,21 @@ function duplicateCount(text){
 }
 ```
 
+**Kata - Decode The Morse Code**
+```javascript
+decodeMorse = function(morseCode){
+  let words = morseCode.trim().split(' ')
+  
+  let result = []
+  for(let i = 0; i < words.length; i++){
+    if(words[i]===""&&words[i+1]===""){
+      result.push(" ")
+      continue;
+    }
+    result.push(MORSE_CODE[words[i]]);
+  }
+  
+  return result.join('');
+}
+```
+
