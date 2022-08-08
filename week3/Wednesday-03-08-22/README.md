@@ -42,3 +42,18 @@ function toCamelCase(str){
   return result.join('');
 }
 ```
+
+**Kata - Unique In Order**
+```javascript
+var uniqueInOrder=function(iterable){
+  let array = [...iterable]
+  let result = []
+  for(let i = 0; i< array.length; i++){
+    if(array[i] === array[i+1]){
+      continue;
+    }
+    result.push(array[i]);
+  }
+  return result;
+}
+```
