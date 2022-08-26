@@ -1,6 +1,6 @@
 ## Monday 22/08/22
 
-**Declare variable types in TypeScript guided exercise, using Typescript**
+[**Declare variable types in TypeScript guided exercise, using Typescript**](https://docs.microsoft.com/en-us/learn/modules/typescript-declare-variable-types/8-types-lab)
 ```typescript
 /* Module 2: Declare variable types in TypeScript
    Lab start  */
