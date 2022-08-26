@@ -4,7 +4,7 @@
 
 </a>
 
-# core-code-from-scratch-readme - Kenneth Pineda
+# core-code-from-scratch - Kenneth Pineda
 
 
 ### [Week 1 Challenges](https://github.com/kennethpHN/core-code-from-scratch-readme/tree/main/week1)
