@@ -14,3 +14,19 @@ export function thirt(n: number): number {
 }
 
 ```
+
+[**Kata - Playing With Digits**](https://www.codewars.com/kata/5552101f47fc5178b1000050/train/typescript)
+```typescript
+export class G964 {
+
+    public static digPow = (n: number, p: number) => {
+        let sum: number = 0;
+        let array: number[]= n.toString().split('').map((i) => Number(i));
+        for(let i: number = 0; i< array.length;i++){
+          sum += array[i]**p;
+          p++;
+        }
+        return sum%n===0?sum/n:-1;
+    }
+}
+```
