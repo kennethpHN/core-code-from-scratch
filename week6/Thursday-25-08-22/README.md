@@ -121,7 +121,7 @@ class Car {
         return `${this.worker()} is turning ${direction}`;
     }
     // This function performs work for the other method functions
-    worker(): string {
+    private worker(): string {
         return this._make;
     }
 }
