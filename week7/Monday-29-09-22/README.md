@@ -90,8 +90,8 @@ function greet2(word: Word) {        // Function using the interface as a parame
 }
 
 let greeter = new Greeter("world");   // Class Instantiaton
-console.log(greeter.greet()); // Calling the Method
-console.log(greet2(greeter)); // function using the object as parameter
+console.log(greeter.greet());         // Calling the Method
+console.log(greet2(greeter));         // function using the object as parameter
 ```
 
 
