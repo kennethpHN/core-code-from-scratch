@@ -59,3 +59,30 @@ A constructor is a special method of a class or structure in object-oriented pro
 
 ### Example of OOP in Typescript
 
+Here we have a simple class made in Typescript:
+
+```typescript
+class Person {                        // Class declaration
+  _greeting: string;                   // Properties
+ 
+  constructor(greeting: string) {      // Constructor
+    this.greeting = greeting;
+  }
+  
+  get greeting(){                      // Accessors
+  return this._greeting;
+  }
+  set greeting(greeting){
+  this._greeting = greeting;
+  }
+ 
+  greet() {                           // Methods
+    return "Hello, " + this.greeting;
+  }
+}
+ 
+let greeter = new Greeter("world");   // Class Instantiaton
+```
+
+
+Here we declare a new Class named `Person`, 
