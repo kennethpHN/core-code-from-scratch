@@ -80,9 +80,18 @@ class Person {                        // Class declaration
     return "Hello, " + this.greeting;
   }
 }
- 
+
+Interface Word {                      // Interface
+  greeting: string;
+}
+
+function greet2(word: Word) {        // Function using the interface as a parameter
+  return "Hello, " + word.greeting;
+}
+
 let greeter = new Greeter("world");   // Class Instantiaton
 console.log(greeter.greet()); // Calling the Method
+console.log(greet2(greeter)); // function using the object as parameter
 ```
 
 
@@ -95,3 +104,5 @@ The `greet()` method will return the string `Hello, ` plus the `greeting` `get` 
 Now we instantiate the `Greeter` class creating an object named `greeter` using the constructor taking as a parameter the string `world`.
 
 If we call the `greet()` method in the console log, we will get ` Hello, world ` as a result.
+
+In TypeScript, two types are compatible if their internal structure is compatible. This allows us to implement an interface just by having the shape the interface requires, if we print the `greet2` function with `greeter` as a parameter, we will get ` Hello, world ` as a result.
