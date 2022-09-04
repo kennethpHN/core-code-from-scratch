@@ -63,7 +63,7 @@ Here we have a simple class made in Typescript:
 
 ```typescript
 class Person {                        // Class declaration
-  _greeting: string;                   // Properties
+  private _greeting: string;                   // Properties
  
   constructor(greeting: string) {      // Constructor
     this.greeting = greeting;
@@ -82,7 +82,17 @@ class Person {                        // Class declaration
 }
  
 let greeter = new Greeter("world");   // Class Instantiaton
+console.log(greeter.greet()); // Calling the Method
 ```
 
 
-Here we declare a new Class named `Person`, 
+Here we declare a new Class named `Person` with the private property `_greeting` of type string, the constructor will take the `greeting` string parameter to initialize the class.
+
+Since the `_greeting` property is private, it will be accesed or modified only through the `get` and `set` accessors.
+
+The `greet()` method will return the string `Hello, ` plus the `greeting` `get` accesor.
+
+Now we instantiate the `Greeter` class creating an object named `greeter` using the constructor taking as a parameter the string `world`.
+
+
+
