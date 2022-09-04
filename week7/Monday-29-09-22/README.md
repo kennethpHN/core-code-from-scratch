@@ -94,5 +94,4 @@ The `greet()` method will return the string `Hello, ` plus the `greeting` `get` 
 
 Now we instantiate the `Greeter` class creating an object named `greeter` using the constructor taking as a parameter the string `world`.
 
-
-
+If we call the `greet()` method in the console log, we will get ` Hello, world ` as a result.
