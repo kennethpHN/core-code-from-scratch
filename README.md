@@ -12,5 +12,6 @@
 ### [Week 3 Challenges](https://github.com/kennethpHN/core-code-from-scratch/tree/main/week3)
 ### [Week 6 Challenges](https://github.com/kennethpHN/core-code-from-scratch/tree/main/week6)
 ### [Week 7 Challenges](https://github.com/kennethpHN/core-code-from-scratch/tree/main/week7)
+### [Week 8 Challenges](https://github.com/kennethpHN/core-code-from-scratch/tree/main/week8)
 
 
