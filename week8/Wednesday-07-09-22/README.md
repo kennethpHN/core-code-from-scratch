@@ -25,3 +25,11 @@ export function parse(data: string): number[] {
   return result;
 }
 ```
+
+[**Kata - Duplicate Encoder**](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/train/typescript)
+```typescript
+export function duplicateEncode(word: string) {
+  let result: string[] = word.toLowerCase().split('');
+  return result.map((x: string, index, word: string[]) => {return word.indexOf(x) === word.lastIndexOf(x) ? '(': ')';}).join('');
+}
+```
