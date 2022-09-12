@@ -46,3 +46,32 @@ let pets = new DataStore<Pets>();
 pets.AddOrUpdate(0, { name: 'Rex', breed: 'Golden Retriever', age: 5});
 pets.AddOrUpdate(1, { name: 'Sparky', breed: 'Jack Russell Terrier', age: 3});
 console.log(pets.GetData(1));         
+```
+
+**Generics exercise, using Typescript**
+
+We have just learn about generics, an we where creating our own implementation for the Linkedlist structure, but it is incomplete, you task is to finish the missing methods.
+
+- addFirst: Adds a new node at the start of the structure
+- removeLast: Removes the last node of the structure
+```typescript
+public addFirst(value: T) {
+    if (this.head === null) {
+      this.add(value);} else {
+      let node = new Node(value);
+      node.next = this.head;
+      this.head = node;
+      this.length++;}
+}
+
+public removeLast(): void {
+    if (this.head !== null) {
+      let node = this.head;
+      let previous: Node<T> = node;
+      while (node.next !== null) {
+        previous = node;
+        node = node.next;}
+      previous.next = null;
+      this.length--;}
+}
+ ```
