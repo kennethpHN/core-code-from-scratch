@@ -53,3 +53,20 @@ export const findOdd = (xs: number[]): number => {
   return 0;
 };
 ```
+
+[**Kata - Which Are In?**](https://www.codewars.com/kata/550554fd08b86f84fe000a58/train/typescript)
+```typescript
+export function inArray(a1: string[], a2: string[]): string[] {
+   let r: string[]=[];
+   for(let i =0; i < a2.length; i++){
+      for(let j =0; j < a1.length; j++){
+         if(a2[i].includes(a1[j])){
+            if(r.indexOf(a1[j])!=-1){
+               continue;
+            } else r.push(a1[j]);
+         }
+      }
+   }
+   return r.sort();
+}
+```
