@@ -33,3 +33,23 @@ export function duplicateEncode(word: string) {
   return result.map((x: string, index, word: string[]) => {return word.indexOf(x) === word.lastIndexOf(x) ? '(': ')';}).join('');
 }
 ```
+
+[**Kata - Find The Odd Int**](https://www.codewars.com/kata/54da5a58ea159efa38000836/train/typescript)
+```typescript
+export const findOdd = (xs: number[]): number => {
+   let counter = 1;
+  for(let i = 0; i < xs.length; i++){
+      if(i > xs.indexOf(xs[i])) continue;
+      for(let j = i+1; j < xs.length; j++){
+         if(xs[i]===xs[j]){
+            counter++};
+      }
+      if(counter % 2 != 0){
+         return xs[i];
+      } else {
+         counter = 1;
+         };
+  }
+  return 0;
+};
+```
