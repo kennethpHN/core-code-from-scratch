@@ -1,4 +1,4 @@
-## Tuesday 08/09/22
+## Thursday 08/09/22
 
 [**Define generics in TypeScript guided exercise, using Typescript**](https://docs.microsoft.com/en-us/learn/modules/typescript-generics/)
 ```typescript
