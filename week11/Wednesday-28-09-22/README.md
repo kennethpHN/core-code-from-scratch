@@ -79,3 +79,13 @@ Is a procedure to interact with resources in the web.
 **6. Is REST the same as HTTP?**
 
 No, The HTTP is the main protocol for data transfer in the REST architectural style.
+
+### REST API Clients Learning Exercise
+
+**1. Postman only works with REST APIs?**
+
+No, it can work with many types of APIs
+
+**2. Is there an alternative to Postman?**
+
+There are many alternatives like insomnia, REST client for vscode, etc..
