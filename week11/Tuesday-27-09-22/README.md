@@ -77,4 +77,34 @@ Time to put into practice what you learned about Node.JS modules 😁.
    way in `main.js`.
 
 [**Solution**](https://github.com/kennethpHN/core-code-from-scratch/tree/main/week11/Tuesday-27-09-22/kennethpHN)
+
+### Client-Server Model Learning Exercise
+
+**1. What is a Server?**
+
+A server is a program or device that manages resources in a network and offers services requested by other devices or programs.
+
+**2. What is a client?**
+
+its a device or program that sends requests to a server and uses its resources.
+
+**3. Is a server just another physical computer?**
+
+A Server can be a software located in the same device as the client or in a dedicated device for itself.
+
+  - Why do we refer to a certain class of applications as Servers?
+  
+  Because those applications are designed to manage requests from another application on the client side
+
+**4. Is there any similarity between human communication and the client-server model?**
+
+It is, since one side can request something and the other side sends a response to that request.
+
+**5. Is the client-server model applicable only to the Web?**
+
+No, one example can be a computer and a printer in an office, the client computer sends a print request to the office server, and then the server sends the printing task to the printer.
+
+
+  
+
   
