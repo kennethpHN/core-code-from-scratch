@@ -46,6 +46,36 @@ is a simple text format for data exchange.
 
 - Is JSON the same as a plain Javascript object?
 
-Yes
+  Yes
 
+**3. What is REST?**
 
+REST, or REpresentational State Transfer, is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other.
+
+**4. What is a Resource in REST?**
+
+A resource can be defined as a vital element to be referenced within a client-server system.
+
+- What is a resource identifier?
+
+  The Uniform Resource Identifier (URI) is intended to identify abstract or physical resources on the Internet.
+
+**5. What is an HTTP method**
+
+Is a procedure to interact with resources in the web.
+
+- What HTTP methods does REST use within its architecture rules?
+
+  GET is only used to request data from a specified resource. Get requests can be cached and bookmarked.
+
+  POST is used to send data to a server to create/update a resource.
+
+  PUT replaces all current representations of the target resource with the request payload.
+
+  DELETE removes the specified resource.
+
+  OPTIONS is used to describe the communication options for the target resource.
+  
+**6. Is REST the same as HTTP?**
+
+No, The HTTP is the main protocol for data transfer in the REST architectural style.
