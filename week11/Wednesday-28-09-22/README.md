@@ -33,3 +33,19 @@ A standard.
 - Youtube API
 
 - Steam API
+
+### From JSON to REST Learning Exercise
+
+**1. What is HTTP?**
+
+HyperText Transfer Protocol is the name of the protocol that allows us to do data requests on the internet.
+
+**2. What is JSON?**
+
+is a simple text format for data exchange.
+
+- Is JSON the same as a plain Javascript object?
+
+Yes
+
+
