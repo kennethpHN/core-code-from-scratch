@@ -89,3 +89,26 @@ No, it can work with many types of APIs
 **2. Is there an alternative to Postman?**
 
 There are many alternatives like insomnia, REST client for vscode, etc..
+
+### Express.JS Core Understanding Learning Exercise
+
+  - Create a new Node.JS project using NPM.
+  - Install Express.JS as an external dependency in your project following [this](https://expressjs.com/es/starter/installing.html) guide.
+  - Create an Express.JS Hello World application following [this](https://expressjs.com/es/starter/hello-world.html) guide.
+  
+```javascript
+  
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
+
+
+```
