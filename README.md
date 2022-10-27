@@ -16,4 +16,7 @@
 ### [Week 9 Challenges](https://github.com/kennethpHN/core-code-from-scratch/tree/main/week9)
 ### [Week 11 Challenges](https://github.com/kennethpHN/core-code-from-scratch/tree/main/week11)
 
+### Project
 
+#### [Backend](https://github.com/kennethpHN/tesseract-backend)
+#### [Frontend](https://github.com/kennethpHN/tesseract-frontend)
